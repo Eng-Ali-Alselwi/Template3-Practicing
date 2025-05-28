@@ -1,0 +1,153 @@
+/* Start Header */
+@media (max-width:767px){
+    header a.logo {
+        width: 100%;
+        font-size: 22px;
+        height: 50px;
+    }
+    header .main-links {
+        margin: auto;
+        gap: 0px;
+    }
+    header .main-links > li > a {
+        height: 40px;
+        font-size: 14px;
+    }
+    header .main-links > li .mega-menu {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    header .mega-menu ul:last-child li:first-child{
+        border-top: #ddd 1px solid;
+    }
+}
+@media (max-width:991px){
+    header .main-links > li .mega-menu .image {
+        display: none;
+    }
+}
+/* End Header */
+
+
+/* Start Landing */
+@media (max-width:991px){
+    .landing .text {
+        text-align: center;
+    }
+    .landing .container .image{
+        display: none;
+    }
+}
+@media (max-width:767px){
+    .landing .text h2 {
+        font-size: 28px;
+    }
+    .landing .text p {
+        font-size: 17px;
+    }
+}
+/* End Landing */
+
+
+/* Start Skills */
+@media (max-width:991px) {
+    .skills .image img {
+        display: none;
+    }
+}
+/* End Skills */
+
+
+/* Start How It Works ? */
+@media (max-width:991px){
+    .how-work .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .how-work .image {
+        margin: 0px auto;
+    }
+}
+@media (max-width:768px){
+    .how-work .box {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+/* End How It Works ? */
+
+
+/* End Events */
+@media (max-width:991px){
+    .events .content .image{
+        display: none;
+    }
+    .events .content .details{
+        flex-basis: 100%;
+    }
+}
+@media (max-width:767px){
+    .events .subscribe form{
+        width: 100%;
+        flex-direction: column;
+        border-radius: 5px;
+        gap: 10px;
+    }
+    .events .subscribe form input[type="email"]{
+        border-radius: 4px;
+        width: 100%;
+    }
+    .events .subscribe form input[type="button"]{
+        width: 100%;
+        border-radius: 4px;
+    }
+}
+/* End Events */
+
+
+/* Start Pricing */
+@media (min-width: 1200px) {
+    .pricing .content .card-advanced{
+        transform: translateY(-20px);
+    }
+}
+/* End Pricing */
+
+
+/* Start Top Videos */
+@media (max-width: 991px) {
+    .videos .content {
+        flex-direction: column;
+    }
+    .videos .content .show-vid{
+        order: 2;
+    }
+}
+/* End Top Videos */
+
+
+/* Start Discount */
+@media (max-width: 991px) {
+    .discount {
+        flex-direction: column;
+    }
+}
+/* End Discount */
+
+
+/* Start Footer */
+@media (max-width: 500px) {
+    footer .developer{
+        text-align: center;
+    }
+    footer .developer .icons{
+        width: fit-content;
+        margin: 0px auto;
+    }
+    footer .small-gallary{
+        text-align: center;
+    }
+}
+/* End Footer */
