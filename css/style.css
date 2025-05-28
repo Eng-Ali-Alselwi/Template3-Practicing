@@ -149,7 +149,7 @@ header .main-links > li .mega-menu .image img{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50px;
+    bottom: 30px;
     color: var(--main-color);
     font-size: 22px;
     font-weight: bold;
